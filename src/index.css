@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+  font: max(1rem, 2svh) sans-serif
+}
+
+.input_form{
+  padding-top: min(1rem, 3svh);
+  padding-bottom: min(1rem, 3svh);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: darkorange;
+}
+.input_form > *{
+  margin: 0 min(0.5rem, 1svw);
+  border-radius: 2rem;
+  padding: 3px;
+}
+.input_form > input{
+  height: min(2rem, 6svh);
+  width: 30svw;
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+}
+.input_form > button{
+  width: min(6svw, 6rem);
+}
+.table{
+  align-self: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  min-width: min(50svw, 50rem);
+  margin-top: min(3svh, 1rem);
+  background-color:rgb(122, 243, 243);
+}
+td{
+  min-width: min(7svw, 7rem);
+}
+td > button{
+  align-self: center;
+  border-style: solid;
+}
+.delete_button{
+  border-radius: 1rem;
+  border-style:double;
+}
+.Checked{
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 49%, rgba(0, 0, 0, 0) 51%, rgba(255, 225, 225, 1) 100%);
+}
